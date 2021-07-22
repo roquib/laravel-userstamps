@@ -1,10 +1,10 @@
 {
-  "name": "hrshadhin/laravel-userstamps",
-  "homepage": "https://github.com/hrshadhin/laravel-userstamps",
+  "name": "roquib/laravel-userstamps",
+  "homepage": "https://github.com/roquib/laravel-userstamps",
   "license": "MIT",
   "description": "A simple Laravel package for Eloquent Model user specific fields.",
   "keywords": [
-    "hrshadhin",
+    "roquib",
     "laravel",
     "userstamps",
     "eloquent",
@@ -16,8 +16,8 @@
   "minimum-stability": "stable",
   "authors": [
     {
-      "name": "H.R.Shadhin",
-      "email": "dev@hrshadhin.me"
+      "name": "Abdur Roquib Pramanik",
+      "email": "roquib01@outlook.com"
     }
   ],
   "readme": "./readme.md",
@@ -29,13 +29,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Hrshadhin\\Userstamps\\": "src/"
+      "Roquib\\Userstamps\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Hrshadhin\\Userstamps\\UserstampsServiceProvider"
+        "Roquib\\Userstamps\\UserstampsServiceProvider"
       ]
     }
   }
