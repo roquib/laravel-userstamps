@@ -1,18 +1,18 @@
 <?php
 
-namespace Hrshadhin\Userstamps;
+namespace Roquib\Userstamps;
 
 /**
  * Class Userstamps
  *
- * @package Hrshadhin\Userstamps
+ * @package Roquib\Userstamps
  */
 class UserstampsTraitObserver
 {
     /**
      * Model's creating event hook.
      *
-     * @param \Hrshadhin\Userstamps\UserstampsTrait $model
+     * @param \Roquib\Userstamps\UserstampsTrait $model
      */
     public function creating($model)
     {
@@ -39,7 +39,7 @@ class UserstampsTraitObserver
     /**
      * Model's updating event hook.
      *
-     * @param \Hrshadhin\Userstamps\UserstampsTrait $model
+     * @param \Roquib\Userstamps\UserstampsTrait $model
      */
     public function updating($model)
     {
@@ -51,7 +51,7 @@ class UserstampsTraitObserver
      /**
      * Model's saving event hook.
      *
-     * @param \Hrshadhin\Userstamps\UserstampsTrait $model
+     * @param \Roquib\Userstamps\UserstampsTrait $model
      */
     public function saving($model)
     {
@@ -64,7 +64,7 @@ class UserstampsTraitObserver
      /**
       * Model's deleting event hook.
       *
-      * @param \Hrshadhin\Userstamps\UserstampsTrait $model
+      * @param \Roquib\Userstamps\UserstampsTrait $model
       */
     public function deleting($model)
     {
@@ -78,7 +78,7 @@ class UserstampsTraitObserver
      /**
       * Model's restoring event hook.
       *
-      * @param \Hrshadhin\Userstamps\UserstampsTrait $model
+      * @param \Roquib\Userstamps\UserstampsTrait $model
       */
     public function restoring($model)
     {
