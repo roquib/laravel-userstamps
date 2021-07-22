@@ -1,6 +1,6 @@
 <?php
 
-namespace Hrshadhin\Userstamps;
+namespace Roquib\Userstamps;
 
 use App\User;
 use Illuminate\Database\Eloquent\Builder;
